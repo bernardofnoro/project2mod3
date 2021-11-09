@@ -1,0 +1,28 @@
+{
+  "name": "project2mod3",
+  "version": "1.0.0",
+  "description": "API nodeJS+ express+ mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardofnoro/project2mod3.git"
+  },
+  "author": "Bernardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bernardofnoro/project2mod3/issues"
+  },
+  "homepage": "https://github.com/bernardofnoro/project2mod3#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
