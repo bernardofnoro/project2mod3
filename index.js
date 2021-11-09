@@ -23,7 +23,7 @@ app.use('/cities', citiesRoutes);
 
 
 app.listen(port, () => {
-  console.info(`App rodando em: http://localhost:${port}`);
+  console.info(`App running on: http://localhost:${port}`);
 });
 
 
