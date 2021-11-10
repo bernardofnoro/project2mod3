@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
     res.status(200).json({ message: 'Bem vindo ao menu de CIDADES.'});
 });
 
-router.get('/listAll', async (req, res) => {
+router.get('/listall', async (req, res) => {
     await city.find({}).then((cities) => {
         res.status(200).json(cities);
     }).catch((err) => {
@@ -55,6 +55,7 @@ router.post('/add', async (req,res) => {
 });
 
 router.put('/update/:id', async (req,res) => {
+    const id = req.params.id
     
     if (!req.body.nome) {
         res.status(400).json({ message: 'Nome é obrigatório!' });

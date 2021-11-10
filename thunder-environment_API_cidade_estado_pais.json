@@ -1,0 +1,1 @@
+{"client":"Thunder Client","environmentName":"API_cidade_estado_pais","dateExported":"2021-11-10T00:55:08.070Z","version":"1.0","variables":[{"name":"cidades","value":"https://nodemongoatlas.herokuapp.com/cities/"},{"name":"estados","value":"https://nodemongoatlas.herokuapp.com/states/"},{"name":"paises","value":"https://nodemongoatlas.herokuapp.com/countries/"}]}
